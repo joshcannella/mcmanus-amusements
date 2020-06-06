@@ -1,0 +1,9 @@
+// Override this file to add your own SCSS styling.
+@media (min-width: 1300px) {
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 1300px;
+    } 
+}
+.article-metadata {
+    display: none;
+}
