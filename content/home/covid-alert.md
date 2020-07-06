@@ -53,7 +53,7 @@ subtitle = ""
 
 # **McManus Amusements**
 
-## Your One Stop Event Rental Shop Serving Maryland!
+## Your One-Stop Event Rental Shop Serving MD, NJ, NY, & PA!
 
 
 <div style="height:20vh"></div>

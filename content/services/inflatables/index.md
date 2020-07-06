@@ -1,6 +1,6 @@
 ---
 title: Inflatables
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat.
+summary: Choose from our commercial grade Movie Theatres, Inflatable Games, & Moon Bounces. The safest form of fun for kids!
 tags:
 date: "2020-06-06T00:00:00Z"
 

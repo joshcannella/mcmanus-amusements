@@ -1,6 +1,6 @@
 ---
 title: Game Trailers
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat.
+summary: We have a wide variety of the highest quality carnival games. Perfect for non-profit, corporate, and residential events!
 tags:
 date: "2020-06-06T00:00:00Z"
 

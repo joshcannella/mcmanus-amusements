@@ -1,6 +1,6 @@
 ---
 title: Tent Rentals
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat.
+summary: From our all white frame tents, to red & white, to red, white, & green, we’re certain we have the tent for you! All sizes available. 
 tags:
 date: "2020-06-06T00:00:00Z"
 

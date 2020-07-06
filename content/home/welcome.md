@@ -51,7 +51,7 @@ subtitle = ""
 +++
 
 
-McManus Amusements is proudly providing businesses, and homeowners in Maryland and New Jersey with event rentals, fundraising and event productions.
+McManus Amusements is proudly providing businesses and homeowners in Maryland and New Jersey with event rentals, fundraising, and event productions.
 <br/>
 With our expertise in game trailers, merchandise, tents, tables, and chairs, we can ensure your event will be a success at the lowest cost possible!
 
