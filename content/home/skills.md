@@ -23,7 +23,7 @@ subtitle = ""
 [[feature]]
   icon = "campground"
   icon_pack = "fas"
-  name = "Affordable Tents"
+  name = "Framed Tents"
   description = ""  
   
 [[feature]]
