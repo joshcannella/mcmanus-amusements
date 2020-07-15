@@ -1,0 +1,15 @@
+{{ $link := (printf "/tents/%s" .slug)}}
+
+<div class="col-xl-6" >
+    <div class="card">
+    <a href="{{ $link }}" class="card-image hover-overlay">
+        <img src="{{ (printf "/img/%s" .image) | relURL }}" alt="" class="img-responsive">
+    </a>
+    <div class="card-text">
+        <h4><a href="{{ $link }}" >{{ .name | markdownify | emojify }}</a></h4>
+        <div class="article-style">
+        <p>{{ .description }}</p>
+        </div>
+    </div>
+    </div>
+</div>

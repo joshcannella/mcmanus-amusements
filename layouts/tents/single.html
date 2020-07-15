@@ -1,0 +1,31 @@
+
+
+
+{{- define "main" -}}
+
+<div class="pub">
+    <div class="article-container pt-3">
+        <h1>{{ .Params.name }}</h1>
+    </div>
+
+  <div class="article-header article-container mt-4 mb-4">
+
+    <div>
+        <div>
+            <img src="{{ (printf "/img/%s" .Params.image) | relURL }}" class="article-banner" alt="">
+        </div>
+    <div>
+        <div>
+            <p>{{ .Params.description }}</p>
+        </div>
+    </div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style">
+      {{ .Content }}
+    </div>
+
+  </div>
+</div>
+{{- end -}}

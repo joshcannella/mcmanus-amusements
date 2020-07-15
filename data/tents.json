@@ -1,0 +1,11 @@
+[{
+    "slug": "tent-1",
+    "name": "Tent 1",
+    "image": "game-trailer-line-up.jpg",
+    "description": "This is the description for tent 1."
+}, {
+    "slug": "tent-2",
+    "name": "Tent 2",
+    "description": "This is the description for tent 2.",
+    "image": "/images/phaser.png"
+}]
