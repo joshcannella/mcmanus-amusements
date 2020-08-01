@@ -3,10 +3,13 @@
 <article class="article">
 
   {{ partial "page_header" . }}
-
-  <div class="article-container">
-
-    <div class="article-style">
+  {{ $class := "article-container" }}
+  {{ if eq .Params.title "Gallery" }}
+    {{ $class = "gallery-container" }}
+  {{end}}
+  
+  <div class="{{ $class }} dfdf">
+    <div>
       {{ .Content }}
     </div>
 

@@ -18,8 +18,9 @@ func main() {
 	defer jsonFile.Close()
 
 	type Tent struct {
-		Id int
-		Slug, Name, Description, Image, Content string
+		Capacity int
+		Size [2]int
+		Slug, Name, Description, Image, Colors, Content string
 	}
 	dec := json.NewDecoder(jsonFile)
 	_ = os.MkdirAll("content/tents/", 0775)
@@ -45,8 +46,12 @@ func main() {
 
 			out += fmt.Sprintf("---\n")
 			out += fmt.Sprintf("name: |\n  %v\n", a.Name)
-			out += fmt.Sprintf("description: |\n  %v\n", a.Description)
 			out += fmt.Sprintf("image: %v\n", a.Image)
+			out += fmt.Sprintf("colors: %v\n", a.Colors)
+			// out += fmt.Sprintf("sizeX: %d\n", a.Size[0])
+			// out += fmt.Sprintf("sizeY: %d\n", a.Size[1])
+			out += fmt.Sprintf("size: [%d, %d]\n", a.Size[0], a.Size[1])
+			out += fmt.Sprintf("capacity: %d\n", a.Capacity)
 			out += fmt.Sprintf("---\n")
 			out += fmt.Sprintf("%v\n", a.Content)
 

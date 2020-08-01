@@ -1,11 +1,77 @@
 [{
-    "slug": "tent-1",
-    "name": "Tent 1",
-    "image": "game-trailer-line-up.jpg",
-    "description": "This is the description for tent 1."
+    "slug": "frame-tent-10x10",
+    "name": "West Coast Style Frame Tent - 10x10",
+    "image": "frame-tent-10x10-white.jpg",
+    "colors": "White, Red/White, Red/White/Green",
+    "size": [10, 10],
+    "capacity": 8,
+    "description": "Our tents are West Coast style frame tents. Frame tents can withstand higher winds and other inclement weather than any other style of tent. This makes them better to be left set up for longer stretches of time. Frame tents do not have an obstructive center pole, making them more space efficient inside and out."
 }, {
-    "slug": "tent-2",
-    "name": "Tent 2",
-    "description": "This is the description for tent 2.",
-    "image": "/images/phaser.png"
+    "slug": "frame-tent-12x12",
+    "name": "West Coast Style Frame Tent - 12x12",
+    "image": "frame-tent-12x12-red-white.jpg",
+    "colors": "White, Red/White, Red/White/Green",
+    "size": [12, 12],
+    "capacity": 12,
+    "description": "Our tents are West Coast style frame tents. Frame tents can withstand higher winds and other inclement weather than any other style of tent. This makes them better to be left set up for longer stretches of time. Frame tents do not have an obstructive center pole, making them more space efficient inside and out."
+},
+{
+    "slug": "frame-tent-10x20",
+    "name": "West Coast Style Frame Tent - 10x20",
+    "image": "frame-tent-10x20-red-white.jpg",
+    "colors": "Red/White",
+    "size": [10, 20],
+    "capacity": 18,
+    "description": "Our tents are West Coast style frame tents. Frame tents can withstand higher winds and other inclement weather than any other style of tent. This makes them better to be left set up for longer stretches of time. Frame tents do not have an obstructive center pole, making them more space efficient inside and out."
+}, {
+    "slug": "frame-tent-20x20",
+    "name": "West Coast Style Frame Tent - 20x20",
+    "image": "frame-tent-20x20-red-white.jpg",
+    "colors": "White, Red/White, White/Red/Green, Purple/Pink",
+    "size": [20, 20],
+    "capacity": 24,
+    "description": "Our tents are West Coast style frame tents. Frame tents can withstand higher winds and other inclement weather than any other style of tent. This makes them better to be left set up for longer stretches of time. Frame tents do not have an obstructive center pole, making them more space efficient inside and out."
+}, {
+    "slug": "frame-tent-20x30",
+    "name": "West Coast Style Frame Tent - 20x30",
+    "image": "frame-tent-20x30-white.jpg",
+    "colors": "White",
+    "size": [20, 30],
+    "capacity": 32,
+    "description": "Our tents are West Coast style frame tents. Frame tents can withstand higher winds and other inclement weather than any other style of tent. This makes them better to be left set up for longer stretches of time. Frame tents do not have an obstructive center pole, making them more space efficient inside and out."
+}, {
+    "slug": "frame-tent-20x40",
+    "name": "West Coast Style Frame Tent - 20x40",
+    "image": "frame-tent-20x40-white.jpg",
+    "colors": "White",
+    "size": [20, 40],
+    "capacity": 48,
+    "description": "Our tents are West Coast style frame tents. Frame tents can withstand higher winds and other inclement weather than any other style of tent. This makes them better to be left set up for longer stretches of time. Frame tents do not have an obstructive center pole, making them more space efficient inside and out."
+},
+{
+    "slug": "frame-tent-30x30",
+    "name": "West Coast Style Frame Tent - 30x30",
+    "image": "frame-tent-30x30-white.jpg",
+    "colors": "White",
+    "size": [30, 30],
+    "capacity": 60,
+    "description": "Our tents are West Coast style frame tents. Frame tents can withstand higher winds and other inclement weather than any other style of tent. This makes them better to be left set up for longer stretches of time. Frame tents do not have an obstructive center pole, making them more space efficient inside and out."
+},
+{
+    "slug": "frame-tent-15x15",
+    "name": "West Coast Style Frame Tent - 15x15",
+    "image": "no-image.png",
+    "colors": "Red/White",
+    "size": [15, 15],
+    "capacity": 18,
+    "description": "Our tents are West Coast style frame tents. Frame tents can withstand higher winds and other inclement weather than any other style of tent. This makes them better to be left set up for longer stretches of time. Frame tents do not have an obstructive center pole, making them more space efficient inside and out."
+},
+{
+    "slug": "frame-tent-30x45",
+    "name": "West Coast Style Frame Tent - 35x55",
+    "image": "frame-tent-35x45-white.png",
+    "colors": "White",
+    "size": [35, 45],
+    "capacity": 120,
+    "description": "Our tents are West Coast style frame tents. Frame tents can withstand higher winds and other inclement weather than any other style of tent. This makes them better to be left set up for longer stretches of time. Frame tents do not have an obstructive center pole, making them more space efficient inside and out."
 }]

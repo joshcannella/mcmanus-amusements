@@ -52,7 +52,10 @@
   {{ end }}
 {{end}}
 
+
 <div class="article-container pt-3">
+
+
   <h1>{{ $title }}</h1>
 
   {{ with $page.Params.subtitle }}
@@ -77,6 +80,9 @@
   {{ $ctnr := "article-container" }}
   {{ if $page.IsNode }}
     {{ $ctnr = "universal-wrapper" }}
+  {{end}}
+  {{ if eq $title "Gallery" }}
+    {{ $ctnr = "gallery-container" }}
   {{end}}
 <div class="{{$ctnr}} pt-3">
   <h1>{{ $title }}</h1>

@@ -29,7 +29,7 @@ subtitle = ""
   # gradient_end = "SkyBlue"
   
   # Background image.
-  image = "game-trailer-line-up.jpg"  # Name of image in `static/img/`.
+  image = "frame-tent-20x30-white.jpg"  # Name of image in `static/img/`.
   image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
   image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
   image_position = "center"  # Options include `left`, `center` (default), or `right`.
@@ -54,6 +54,7 @@ subtitle = ""
 # **McManus Amusements**
 
 ## Your One-Stop Event Rental Shop Serving MD, NJ, NY, & PA!
+## Offering [Tent Rentals](services/tents/) in the Baltimore area and Maryland!
 
 
 <div style="height:20vh"></div>

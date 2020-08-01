@@ -7,3 +7,37 @@
 .article-metadata {
     display: none;
 }
+.no-margin {
+    margin: 0 !important;
+}
+.share-box {
+    display: none;
+}
+.gallery-container {
+    padding: 0 14rem;
+}
+@media (max-width: 1300px) {
+    .gallery-container {
+        padding: 0 2rem;
+    }
+    .hide-mobile {
+        display: none;
+    }
+    .contact-callout ul {
+        padding-left: 2rem;
+    }
+    .contact-callout {
+        padding: .5rem 0 !important;
+    }
+    .contact-message {
+        margin-bottom: 1rem;
+    }
+}
+@media (min-width: 576px) {
+    .jumbotron {
+        padding: 2rem 1.5rem;
+    }
+}
+.contact-callout {
+    padding: 1rem 0
+}

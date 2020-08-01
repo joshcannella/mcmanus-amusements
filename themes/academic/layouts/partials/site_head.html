@@ -206,6 +206,6 @@
 
   {{ partial "custom_head" . }}
 
-  <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
+  <title>{{ if .IsHome }}{{ .Title }} | Tent Rentals - Baltimore MD{{else}}{{ (printf "%s | %s" .Title site.Title) }}{{end}}</title>
 
 </head>

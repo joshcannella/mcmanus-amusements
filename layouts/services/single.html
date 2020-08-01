@@ -4,16 +4,24 @@
 
   {{ partial "page_header.html" . }}
 
-  <div class="article-container">
+  <div class="container">
 
     <div class="space-below"></div>
 
     <div class="article-style">
       {{ .Content }}
     </div>
-
-    {{ $tents := getJSON "/data/tents.json" }}
-
+    {{ $title := .Title }}
+    
+    {{ if eq $title "Tent Rentals - Baltimore MD" }}
+      {{ $tents := sort (getJSON "/data/tents.json") "name" }}
+    <section class="container">
+        <div class="row" >
+            <h2>Tent Inventory</h2>
+            
+        </div>
+    </section>
+    <hr/>
     <section class="container">
         <div class="row" style="margin-left:-30px;margin-right:-30px;">
             {{ range $tents }}
@@ -21,6 +29,10 @@
             {{ end }}
         </div>
     </section>
+    <hr/>
+    {{ end }}
+
+    {{ partial "contact_us" . }}
 
     {{ partial "page_footer" . }}
 
