@@ -41,3 +41,12 @@
 .contact-callout {
     padding: 1rem 0
 }
+.horizontal-card {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease-out;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.inventory-container {
+    padding: 0 1rem;
+}

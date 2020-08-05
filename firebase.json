@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "mcmanus-amusements-website",
     "public": "public",
     "ignore": [
       "firebase.json",

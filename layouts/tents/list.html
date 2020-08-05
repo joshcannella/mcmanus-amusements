@@ -1,0 +1,61 @@
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+    {{ $paginator := .Paginate .Data.Pages }}
+    {{ range $paginator.Pages }}
+    {{ $link := .RelPermalink }}
+    {{ $target := "" }}
+    {{ with .Params.external_link }}
+      {{ $link = . }}
+      {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+    {{ end }}
+    <h2>
+        <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ .Params.name }}</a>
+    </h2>
+    <div class="inventory-container container">
+        <div class="row horizontal-card">
+            <div class="col-6" style="padding:1rem;">
+                <img src="{{ (printf "/img/%s" .Params.image) | relURL }}"  alt="">
+            </div>
+            <div class="col" style="padding:1rem;">
+                <table class="table table-responsive w-100 d-block d-md-table">
+                    <tbody>
+                            <tr>
+                            <th>Size</th>
+                            <td>{{ (printf "%sX%s FT" (index .Params.size 0) (index .Params.size 1)) }}</td>
+                        </tr>
+                        <tr>
+                            <th >Area</th>
+                            <td>100 SQ FT</td>
+                        </tr>
+                        <tr>
+                            <th>Space Needed</th>
+                            <td>{{ (printf "%dX%d FT" ( add (int (index .Params.size 0)) 4) (add (int (index .Params.size 1)) 4) ) }}</td>
+                        </tr>
+                        <tr>
+                            <th >Capacity</th>
+                            <td>{{ (printf "%d people" .Params.capacity) }}</td>
+                        </tr>
+                        <tr>
+                            <th >Colors</th>
+                            <td>{{.Params.colors}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            
+        </div>
+        
+    </div>
+  {{ end }}
+
+  <div class="space-below"></div>
+
+  {{ partial "contact_us" . }}
+
+</div>
+
+{{- end -}}
