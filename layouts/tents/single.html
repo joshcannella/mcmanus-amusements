@@ -4,6 +4,10 @@
 {{- define "main" -}}
 
 <div class="pub">
+  {{ $sizeX := int (index .Params.size 0) }}
+  {{ $sizeY := int (index .Params.size 1) }}
+  {{ $area := int (mul $sizeX $sizeY) }}
+
     <div class="article-container pt-3">
         <h1 style="margin-bottom: 1rem">{{ .Params.name }}</h1>
     </div>
@@ -21,15 +25,15 @@
           <tbody>
             <tr>
               <th>Size</th>
-              <td>{{ (printf "%sX%s FT" (index .Params.size 0) (index .Params.size 1)) }}</td>
+              <td>{{ (printf "%vX%v FT" $sizeX $sizeY) }}</td>
             </tr>
             <tr>
               <th >Area</th>
-              <td>100 SQ FT</td>
+              <td>{{ (printf "%v SQ FT" (lang.NumFmt 0 $area)) }}</td>
             </tr>
             <tr>
               <th>Space Needed</th>
-              <td>{{ (printf "%dX%d FT" ( add (int (index .Params.size 0)) 4) (add (int (index .Params.size 1)) 4) ) }}</td>
+              <td>{{ (printf "%dX%d FT" (add $sizeX 4) (add $sizeY 4)) }}</td>
             </tr>
             <tr>
               <th >Capacity</th>

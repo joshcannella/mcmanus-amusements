@@ -1,9 +1,9 @@
 ---
 name: |
-  West Coast Style Frame Tent - 35x55
-image: frame-tent-35x45-white.png
+  West Coast Style Frame Tent - 30x45
+image: frame-tent-30x45-white.png
 colors: White
-size: [35, 45]
+size: [30, 45]
 capacity: 120
 ---
 
