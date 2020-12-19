@@ -3,6 +3,46 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
+[[main]]
+  name = "Services"
+  url = "services/"
+  weight = 20
+  identifier = "services"
+
+[[main]]
+  name = "Tents"
+  url = "services/tents/"
+  weight = 1
+  parent = "services"
+
+[[main]]
+  name = "Inflatables"
+  url = "services/inflatables/"
+  weight = 2
+  parent = "services"
+
+[[main]]
+  name = "Game Trailers"
+  url = "services/game-trailers/"
+  weight = 3
+  parent = "services"
+
+
+[[main]]
+  name = "About"
+  url = "#about"
+  weight = 40
+
+[[main]]
+  name = "Gallery"
+  url = "gallery/"
+  weight = 30
+
+[[main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 50
+
 #[[main]]
 #  name = "Home"
 #  url = "#about"

@@ -16,7 +16,7 @@
 theme = "minimal"
 
 # Enable users to switch between day and night mode?
-day_night = true
+day_night = false
 
 # Override the theme's font set (optional).
 #   Guide to font sets: https://wowchemy.com/docs/customization/#fonts
@@ -37,18 +37,18 @@ font_size = "L"
 #   For personal sites, choose "Person".
 #   For organizations and projects, choose from https://schema.org/Organization#subtypes
 #   E.g. Person, Organization, LocalBusiness, Project, EducationalOrganization
-site_type = "Person"
+site_type = "LocalBusiness"
 
 # Local business type (optional)
 # If you entered "LocalBusiness" above, choose the type of business from https://schema.org/LocalBusiness#subtypes
-local_business_type = ""
+local_business_type = "EntertainmentBusiness"
 
 # Organization name (optional)
 # Enter an organization or project name. Defaults to the site title from `config.toml`.
-org_name = ""
+org_name = "McManus Amusements"
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "McManus Amusements is a carnival fundraising company that supplies all types of organizations with carnival game trailers, merchandise, tents, tables and much more. We rent equipment for corporate parties, school events, birthday parties, graduations, block parties, Bar and Bat Mitzvahs, and Church/Temple events. Our equipment is perfect for handling large crowds and adding that “wow” factor that your event needs!"
 
 ############################
 ## Site Features
@@ -71,10 +71,51 @@ diagram = false
 # Privacy pack
 #   Show a cookie consent message to visitors
 #   Anonymize IP in Google Analytics (if enabled)
-privacy_pack = false
+privacy_pack = true
 
 # Does the site use the Portfolio widget or Publication archive?
 require_isotope = false
+
+############################
+## Contact details
+##
+## These details power the Contact widget (if enabled).
+## Additionally, for organizations, these details may be used to enrich search engine results.
+############################
+
+# Enter contact details (optional). To hide a field, clear it to "".
+email = "dan@mcmanusamusements.com"
+phone = "+1 (443) 904-7849"
+
+# Address
+# For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
+#address = {street = "450 Serra Mall", city = "Stanford", region = "CA", postcode = "94305", country = "United States", country_code = "US"}
+
+# Geographic coordinates
+# To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
+#coordinates = {latitude = "37.4275", longitude = "-122.1697"}
+
+# Directions for visitors to locate you.
+#directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
+
+# Office hours
+# A list of your office hours. To remove, set to an empty list `[]`.
+#office_hours = ["Monday 10:00 to 13:00", "Wednesday 09:00 to 10:00"]
+
+# Enter an optional link for booking appointments (e.g. calendly.com).
+#appointment_url = "https://calendly.com"
+
+# Contact links
+#   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
+contact_links = [
+  {icon = "envelope", icon_pack = "fas", name = "dan@mcmanusamusements.com", link = "mailto:dan@mcmanusamusements.com"},
+  #{icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
+  {icon = "facebook-square", icon_pack = "fab", name = "Facebook", link = "https://www.facebook.com/mcmanusamusements"},
+  {icon = "instagram", icon_pack = "fab", name = "Instagram", link = "https://www.instagram.com/mcmanusamusements"},
+  #{icon = "comments", icon_pack = "fas", name = "Discuss on Forum", link = "https://discourse.gohugo.io"},
+  # {icon = "telegram", icon_pack = "fab", name = "Telegram Me", link = "https://telegram.me/@Telegram"},
+  ]
+
 
 ############################
 ## Social
@@ -104,7 +145,7 @@ address_format = "en-us"
 ############################
 
 # Main menu alignment (l = left, c = center, r = right) and logo options.
-main_menu = {enable = false, align = "l", show_logo = true, highlight_active_link = true, show_language = false, show_day_night = true, show_search = true}
+main_menu = {enable = true, align = "r", show_logo = true, highlight_active_link = true, show_language = false, show_day_night = true, show_search = true}
 
 # Enable in-built social sharing buttons? (true/false)
 sharing = true
